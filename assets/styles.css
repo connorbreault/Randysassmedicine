@@ -96,6 +96,9 @@
   margin: 0px;
   letter-spacing: 2px;
 }
+.cardImg {
+  height: 200px;
+}
 /* === OVER 800px === */
 @media only screen and (min-width: 825px) {
   .logoImg {
@@ -127,5 +130,19 @@
   }
   .bottomNavContainer {
     width: 60%;
+  }
+  .cardImg {
+    height: 400px;
+  }
+  .testDiv {
+    width: 60%;
+  }
+  .testimonial {
+    width: 60%;
+    margin: 40px auto;
+  }
+  .testimonialSecond {
+    width: 60%;
+    margin: 0px auto 20px auto;
   }
 }
